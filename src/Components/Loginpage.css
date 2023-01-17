@@ -1,0 +1,55 @@
+/* Add some general styling to the page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form container */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 50px auto;
+    width: 300px;
+  }
+  /* Style the form container */
+.logo{
+    height: 50px;
+    
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+  /* Style the form inputs */
+  input[type="text"], input[type="password"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #2b456a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:#2b456a;
+  }
+  
+  /* Add some spacing between the form elements */
+  label {
+    margin-bottom: 10px;
+  }
+  
